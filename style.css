@@ -35,3 +35,8 @@ h2{
     text-align:center;
     text-shadow: 5px 5px 5px #00eeff;
 }
+
+body
+{
+background-image: linear-gradient(to right top, #66ff87, #4dff4f, #00ff2f, hsl(161, 100%, 50%), #00fffb);
+}
