@@ -50,13 +50,19 @@ function gotResults(error, results) {
             img4.src = "Screenshot 2024-03-13 183604.png";
         }
 
-        else {
+        else if(resulsts[0].label == "lion"){
             img1.src = "puppy1image.jpg";
             img2.src = "cat pic.png";
             img3.src = "lion pic.gif";
             img4.src = "Screenshot 2024-03-13 183604.png";
         }
+        
+        else{
+            img1.src = "puppy1image.jpg";
+            img2.src = "cat pic.png";
+            img3.src = "lion pic.png";
+            img4.src = "Screenshot 2024-03-13 183604.png";
+        }
     }
 }
-
 
